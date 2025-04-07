@@ -1,6 +1,6 @@
 {
-  "dependencies": {
-    "bcryptjs": "^3.0.2",
-    "blueimp-md5": "^2.19.0"
-  }
+	 "dependencies":	{
+	 	 "bcryptjs":	"^3.0.2",
+	 	 "blueimp-md5":	"^2.19.0"
+	 }
 }
