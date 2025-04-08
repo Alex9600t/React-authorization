@@ -240,11 +240,11 @@ function App() {
             tempLogin.login.forEach((el, index) => {
                 if (!isFinal) {
                     if (userInfo[0] == el) {
-                            isFinal = true;
-                            tempLogin.passwordHash[index] = userInfo[1];
-                            resetDataAllowServer[0] = 0;
-                            setPageStatus(2);
-                            setPage(3);
+                        isFinal = true;
+                        tempLogin.passwordHash[index] = userInfo[1];
+                        resetDataAllowServer[0] = 0;
+                        setPageStatus(2);
+                        setPage(3);
                     }
                 }
             })
@@ -331,8 +331,8 @@ function App() {
                 </div>
                 <div className={page == 3 ? "main" : "dNone"}>
                     <h2>Hello</h2>
-                    <h4><b>Hi!</b><br/>
-                    This site was built in just over <b>half an hour</b>. <br/>Please don't go nuclear over the crappy code written by the author of this so-called <strong>"masterpiece."</strong><br/>All source files can be found on <a href="https://github.com/Alex9600t/React-authorization">GitHub</a><p><br/>(Technologies: ReactTS + Vite)</p></h4>
+                    <h4><b>Hi!</b><br />
+                        This site was built in just over <b>half an hour</b>. <br />Please don't go nuclear over the crappy code written by the author of this so-called <strong>"masterpiece."</strong><br />All source files can be found on <a href="https://github.com/Alex9600t/React-authorization">GitHub</a><p><br />(Technologies: ReactTS + Vite)</p></h4>
                     <div style={{ padding: 10 }}></div>
                     <div className={pageStatus !== 0 ? "result" : "dNone"}>
                         <h2>{pageStatus == 2 ? "You have successfully logged in." : pageStatus == 1 ? "Registration went well." : ""}</h2>
